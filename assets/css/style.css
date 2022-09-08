@@ -1,0 +1,30 @@
+.content{
+    max-width: 1110px;
+    height: 90vh;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-insert{
+    display: flex;
+    flex-direction: column;
+}
+.input-form{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center !important;
+}
+
+.input-form input,
+.input-form select{
+    width: 250px;
+}
+.label-form{
+    width: 150px;
+}
+.inactive{
+    display: none;
+}
